@@ -1,0 +1,125 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header / Hero Section */
+header {
+    background-color: #0a66c2; /* Professional blue */
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+header .intro h1 {
+    margin: 10px 0;
+    font-size: 2.5em;
+}
+
+header .intro p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+/* Profile Pic */
+.profile-pic {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    margin-bottom: 20px;
+}
+
+/* CTA Button */
+.cta-button {
+    background-color: #ff6f61; /* Accent color */
+    color: white;
+    padding: 12px 24px;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    display: inline-block;
+}
+
+.cta-button:hover {
+    background-color: #e65b50;
+    transform: scale(1.05);
+}
+
+/* Section Styles */
+section {
+    padding: 40px 20px;
+    max-width: 900px;
+    margin: auto;
+}
+
+h2 {
+    color: #0a66c2;
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+
+/* Skills Section */
+#skills ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    line-height: 1.8;
+}
+
+/* Projects Section */
+.project {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.project h3 {
+    margin-top: 0;
+    color: #333;
+}
+
+.project ul {
+    list-style-type: circle;
+    margin-left: 20px;
+    line-height: 1.6;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #333;
+    color: white;
+}
+
+footer a {
+    color: #ff6f61;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header .intro h1 {
+        font-size: 2em;
+    }
+
+    header .intro p {
+        font-size: 1em;
+    }
+
+    .profile-pic {
+        width: 100px;
+        height: 100px;
+    }
+}
